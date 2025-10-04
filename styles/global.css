@@ -32,6 +32,11 @@
     --px-lg: 1.5rem;
 }
 
+html{
+    font-family: var(--ff-sans);
+}
+
+
 h1 {
     color: var(--content-primary);
     font: var(--title);
@@ -76,7 +81,7 @@ button {
     }
 }
 
-ul {
+ul[role="list"] {
     list-style: none;
 }
 

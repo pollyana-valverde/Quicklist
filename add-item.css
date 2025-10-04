@@ -1,7 +1,0 @@
-#add-item{
-    @media (width >=80em){
-        & .container{
-            grid-template-columns: 2fr 20rem;
-        }
-    }
-}

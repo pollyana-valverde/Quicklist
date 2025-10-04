@@ -24,15 +24,29 @@
 
     <header class="container even-columns">
         <a href="#"><- Voltar </a>
-        <h1>Compras da semana</h1>
+                <h1>Compras da semana</h1>
     </header>
 
     <section id="add-item">
-        <div class="container grid py-xl gap-1">
+        <form class="container grid py-xl gap-1">
             <input type="text" id="add-input" name="add-item" placeholder="Adicione um novo item">
-            <button id="add-button">Adicionar item</button>
+            <button type="submit" id="add-button">Adicionar item</button>
+        </form>
+    </section>
+
+    <section id="item-list">
+        <div class="container">
+            <ul role="list" >
+                <li class="item flex gap-1">
+                    <input type="checkbox" name="1" id="">
+                    <p>teste</p>
+                    <i class="trash-icon"></i>
+                </li>
+            </ul>
         </div>
     </section>
+
+    <script src="scripts/index.js"></script>
 </body>
 
 </html>
