@@ -12,7 +12,6 @@
 ## 📸 Preview
 
 ![preview do projeto](./assets/preview.png)  
-*(adicione aqui um print do Quicklist em funcionamento — salve como `assets/preview.png`)*
 
 ---
 
