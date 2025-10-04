@@ -3,6 +3,7 @@
         background-color: var(--background-secondary);
         position: relative;
 
+
         & [type="checkbox"] {
             all: unset;
             position: absolute;
@@ -26,13 +27,14 @@
             background-image: url(../assets/icons/checkbox-selected.svg);
         }
 
-        & p{
+        & p {
             margin-right: auto;
         }
 
-        & .trash-icon{
+        & .trash-icon {
             flex: 0 0 1.5rem;
             background: url(../assets/icons/trash.svg) no-repeat center/contain;
+            z-index: 1;
 
         }
     }

@@ -107,7 +107,3 @@ span {
     font: var(--label);
 }
 
-.alert {
-    background-color: var(--color-danger);
-    color: var(--background-secondary);
-}

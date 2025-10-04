@@ -1,0 +1,11 @@
+#delete-alert {
+
+    & .alert {
+        background-color: var(--color-danger);
+
+        & p {
+            color: var(--background-secondary);
+            margin-right: auto;
+        }
+    }
+}
