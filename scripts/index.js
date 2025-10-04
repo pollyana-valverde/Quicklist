@@ -11,7 +11,14 @@ form.onsubmit = (e) => {
 
     const newItem = document.createElement("li");
 
-    newItem.innerHTML = `${addInput.value}`;
+    newItem.classList.add("item", "px-base", "py-lg", "flex", "gap-1", "round-base");
+
+    newItem.innerHTML = `
+        <div class="checkbox-image"></div>
+        <input type="checkbox" name="item-row" id="item-row">
+        <p>${addInput.value}</p>
+        <i class="trash-icon"></i>
+    `;
 
     list.append(newItem);
 }

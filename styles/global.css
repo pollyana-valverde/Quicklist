@@ -30,12 +30,17 @@
 
     --px-base: .75rem;
     --px-lg: 1.5rem;
+
+    --round-base: .75rem;
 }
 
 html{
     font-family: var(--ff-sans);
 }
 
+body{
+    background-color: var(--background-primary);
+}
 
 h1 {
     color: var(--content-primary);
@@ -45,7 +50,6 @@ h1 {
 input {
     border: 2px solid var(--border-primary);
     padding: .75rem 1.125rem;
-    border-radius: .75rem;
     font: var(--input);
 
     &::placeholder {
@@ -68,7 +72,6 @@ input {
 }
 
 button {
-    border-radius: .75rem;
     color: var(--background-secondary);
     font: var(--label);
     border: 2px solid var(--color-brand);

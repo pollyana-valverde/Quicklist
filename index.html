@@ -29,15 +29,16 @@
 
     <section id="add-item">
         <form class="container grid py-xl gap-1">
-            <input type="text" id="add-input" name="add-item" placeholder="Adicione um novo item">
-            <button type="submit" id="add-button">Adicionar item</button>
+            <input class="round-base" type="text" id="add-input" name="add-item" placeholder="Adicione um novo item" required>
+            <button class="round-base" type="submit" id="add-button">Adicionar item</button>
         </form>
     </section>
 
     <section id="item-list">
         <div class="container">
-            <ul role="list" >
-                <li class="item flex gap-1">
+            <ul role="list" class="grid gap-1">
+                <li class="item px-base py-lg flex gap-1 round-base">
+                    <div class="checkbox-image"></div>
                     <input type="checkbox" name="1" id="">
                     <p>teste</p>
                     <i class="trash-icon"></i>
